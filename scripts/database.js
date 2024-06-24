@@ -11,7 +11,7 @@ let workers = {
         "firstname": "Vadym",
         "patronimic": "Anatoliyovych",
         "email": "vadymsavenko2008@ukr.net",
-        "password": "31072008Vadym",
+        "password": "admin2024",
         "job": "Headmaster",
         "workplace": "None",
         "cabinet": "None",
