@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../styles/style.css">
+        <link rel="icon" href="../images/icon.png">
+        <title>OrgInfoTech - Login</title>
+    </head>
+    <body>
+        <header>
+            <a href="index.html" class="header-a">
+                <img src="../images/icon.png" alt="Icon" width="61px" style="display:ruby-text-container;">
+                <h1 style="display:ruby-text-container; font-size: 30px;">OrgInfoTech</h1>
+            </a>
+        </header>
+
+        <div class="content">
+
+            <aside>
+            </aside>
+
+            <main>
+                <br><br>
+                <h2>Log in to Dashboard</h2>
+                <input placeholder="E-mail" type="email" id="emailDashboard"><br>
+                <input placeholder="Password" type="password" id="passwordDashboard"><br><br>
+
+                <button id="login" onclick="login()">Log in</button>
+            </main>
+
+        </div>
+
+        <footer>
+            <p>OrgInfoTech @ 2024 - <span id="year-now"></span></p>
+        </footer>
+
+        <script src="../scripts/year-now.js"></script>
+        <script src="../scripts/database.js"></script>
+        <script src="../scripts/login.js"></script>
+    </body>
+</html>
